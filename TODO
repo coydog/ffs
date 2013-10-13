@@ -1,0 +1,2 @@
+put -D_FILE_OFFSET_BITS=64 into makefile.
+Make makefile.
