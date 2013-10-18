@@ -10,7 +10,7 @@ or
 
   cc -o ffs ffs.c 
   
-First ensure you don't have any important files named binzero*.bin, then run
+First ensure you don't have any important files named "binzero*", then run
 
   ./ffs && rm binzero*
 
