@@ -12,6 +12,6 @@ or
   
 First ensure you don't have any important files named binzero*.bin, then run
 
-  ./ffs && rm binzero*.bin
+  ./ffs && rm binzero*
 
 Copyright 2013 Coydog Software. See LICENSE.
