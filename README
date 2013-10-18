@@ -1,1 +1,17 @@
-I'm sure you'll figure it out.
+FFS
+Fill FileSystem
+by coydog
+
+Compile using 
+
+  cc -D_FILE_OFFSET_BITS=64 -o ffs ffs.c
+  
+or 
+
+  cc -o ffs ffs.c 
+  
+First ensure you don't have any important files named binzero*.bin, then run
+
+  ./ffs && rm binzero*.bin
+
+Copyright 2013 Coydog Software. See LICENSE.
