@@ -4,7 +4,7 @@ by coydog
 
 Compile using 
 
-  cc -D_FILE_OFFSET_BITS=64 -o ffs ffs.c
+  cc -D_FILE_OFFSET_BITS=64 -o ffs src/ffs.c
   
 or 
 
