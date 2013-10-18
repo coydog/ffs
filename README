@@ -2,6 +2,16 @@ FFS
 Fill FileSystem
 by coydog
 
+FFS is a freespace wiper. It is intended to improve compression of
+filesystem images by removing unlinked data and metadata from previously
+deleted files. It's not intended as a privacy tool, since things like
+filesystem fragmentation may prevent it from wiping everything, but it works
+in much the same way as many other disk wipers.
+
+FFS will write files filled containing binary zero's in the current working 
+directory until the filesystem is full. The user is responsible for
+deleting the files when it is finished. FFS won't clobber existing files.
+
 Compile using 
 
   cc -D_FILE_OFFSET_BITS=64 -o ffs src/ffs.c
